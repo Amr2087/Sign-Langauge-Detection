@@ -7,7 +7,7 @@ Welcome to the Sign Language Detection project! This project focuses on detectin
 Before getting started, ensure that you have the following requirements fulfilled:
 - Python 3.x installed on your system.
 - GPU (recommended) or CPU with sufficient power to run the YOLOv8 model.
-- The necessary Python libraries installed. You can install them by running `pip install -r requirements.txt`.
+- The necessary Python libraries installed : Ultralytics , os and google.colab
 
 ## Dataset Preparation
 To train the YOLOv8 model, you need a labeled dataset containing images of sign language gestures along with their corresponding bounding box annotations. The dataset should be organized in the following structure:

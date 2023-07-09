@@ -51,7 +51,7 @@ To train the YOLOv8 model on your custom dataset, follow these steps:
 To use the trained YOLOv8 model for sign language detection, you can follow these steps:
 
 1. Place the trained weights file (`best.pt`) in the `weights` directory. 
-    to download the model : https://drive.google.com/file/d/1LWer38--xgx_unA1JHrhf7zIiCEHFojX/view?usp=drive_link
+    to download the model : https://drive.google.com/file/d/1LWer38--xgx_unA1JHrhf7zIiCEHFojX/view?usp=sharing
 2. Run the inference script by executing the following command:
    ```
    python detect.py --source <path_to_input_video_or_image> --weights weights/best.pt --names data/classes.names
